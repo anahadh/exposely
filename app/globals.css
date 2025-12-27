@@ -1,4 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=TASA+Explorer:wght@400..800&display=swap');
 @import "tailwindcss";
+
+@theme {
+  --color-primary: #784AB1;
+  --color-secondary: #684E86;
+  --color-accent: #B737DB;
+  
+  --font-title: 'TASA Explorer', sans-serif;
+  --font-body: 'Inter', sans-serif;
+}
 
 body {
   background: #ffffff;
